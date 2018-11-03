@@ -13,6 +13,7 @@ html {
 	left: 0;
 
 
+	/* Preserve aspet ratio */
 	min-width: 100%;
 	min-height: 100%;
 }
@@ -67,6 +68,10 @@ input {
 	padding: 7px;
 }
 
+.password {
+position: relative;
+top: 5px;
+}
 
 .form-group + .row {
 	display: flex;
