@@ -1,0 +1,54 @@
+html { 
+  background: url(../img/bazy-danych.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: white;
+}
+.bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.myForm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.myForm form{
+  padding: 30px;
+	background-color:  rgba(0,0,205,0.8);
+	border-radius: 30px;
+}
+a{
+color: white;
+}
+button{
+	background-color:#f2a829;
+	border: none;
+	border-radius: 20px;
+	padding: 5px 25px;
+	margin-top: 15px;
+}
+.passwordForgot{
+	margin-top: 15px;
+}
+.form-group.button{
+text-align: center;
+}
+[type="checkbox"]{
+	margin-top: 10px;
+}
+input{
+	margin-top: 10px;
+}
+label[for="password"]{
+	margin-top: 20px;
+}
